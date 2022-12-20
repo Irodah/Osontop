@@ -879,6 +879,11 @@ label{
     font-size: 18px;
     margin-bottom: 6px;
 }
+.product-content:hover button {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
 .product-content > span {
     color: #383838;
     font-size: 18px;
