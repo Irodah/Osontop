@@ -121,6 +121,14 @@
 
 /* 2. index page */
 /* 2.1 Header sidebar */
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .3s;
+    
+}
+
 .header-left-sidebar {
     float: left;
     height: 100vh;
@@ -937,6 +945,10 @@ label{
     text-transform: uppercase;
     margin: 0;
 }
+/* .components:hover{
+    background-color: #000;
+    color: white;
+} */
 .banner-wrapper-content > h2 span {
     font-weight: 300;
 }
@@ -2730,12 +2742,20 @@ a.banner-book-style-btn:hover {
 .custom-row-2 {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -12.5px;
-    margin-right: -12.5px;
 }
 .custom-col-style-2 {
     padding-left: 12.5px;
     padding-right: 12.5px;
+    border-radius: 15px;
+    margin: 0 40px;
+
+    margin-bottom: 40px;
+    transform: all 3s;
+    border: 1px solid rgb(156, 156, 156);
+}
+.custom-col-style-2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px 1px grey;
 }
 .electronic-banner-col-3 {
     flex: 0 0 33.333%;
